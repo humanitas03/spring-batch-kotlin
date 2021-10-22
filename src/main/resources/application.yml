@@ -1,0 +1,11 @@
+spring:
+  batch:
+    jdbc:
+      initialize-schema: ALWAYS
+  application:
+    name: spring-batch-kotlin
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_batch_prac
+    username: spring
+    password: batch
+    driver-class-name: com.mysql.cj.jdbc.Driver
